@@ -35,7 +35,7 @@ elif (int(sys.argv[1]) == 1):
 
 
 
-w2v_path = os.path.join(path_prefix, 'w2v_all.model') # 處理 word to vec model 的路徑
+w2v_path = os.path.join(path_prefix, 'w2v_test.model') # 處理 word to vec model 的路徑
 
 # 定義句子長度、要不要固定 embedding、batch 大小、要訓練幾個 epoch、learning rate 的值、model 的資料夾路徑
 sen_len = 40
